@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
-// import { i18n } from 'next-i18next';
 
 class MyDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {

@@ -1,9 +1,8 @@
-import {AppSidebar} from "@/components/app-sidebar";
-import Page from "@/components/dashboard/page";
+import PayrollDashboard from "@/components/custom/content/payroll/payroll-dashboard";
 
 const HomePage: React.FC = () => {
     return <>
-        <Page />
+        <PayrollDashboard />
     </>;
 }
 
